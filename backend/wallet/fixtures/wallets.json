@@ -1,0 +1,11 @@
+[
+  {"model": "wallet.Wallet",
+  "pk": "2dcd27ec-443a-40c5-8a44-f4c54f5e4213",
+  "fields": {
+    "balance": "150.00",
+    "user": "b98ec452-7830-4343-b9af-2772464866b3",
+    "currency": "USD"
+  }
+}
+
+]

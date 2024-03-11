@@ -1,5 +1,28 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
+=======
+
+
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+local.py
+key.py
+db.sqlite3
+db.sqlite3-journal
+media/*
+
+# If your build process includes running collectstatic, then you probably don't need or want to include staticfiles/
+# in your Git repository. Update and uncomment the following line accordingly.
+# <django-project-name>/staticfiles/
+
+### Django.Python Stack ###
+# Byte-compiled / optimized / DLL files
+>>>>>>> dev
 *.py[cod]
 *$py.class
 
@@ -53,6 +76,7 @@ cover/
 
 # Translations
 *.mo
+<<<<<<< HEAD
 *.pot
 
 # Django stuff:
@@ -60,6 +84,10 @@ cover/
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
+=======
+
+# Django stuff:
+>>>>>>> dev
 
 # Flask stuff:
 instance/
@@ -94,6 +122,7 @@ ipython_config.py
 #   install all needed dependencies.
 #Pipfile.lock
 
+<<<<<<< HEAD
 # poetry
 #   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
 #   This is especially recommended for binary packages to ensure reproducibility, and is more
@@ -110,6 +139,9 @@ ipython_config.py
 .pdm.toml
 
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+=======
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+>>>>>>> dev
 __pypackages__/
 
 # Celery stuff
@@ -152,9 +184,22 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+<<<<<<< HEAD
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+=======
+# statics
+static/*
+
+# Sam ignores
+.idea/
+.rdb
+local_requirements.txt
+volumes/*
+*.rdb
+
+>>>>>>> dev
