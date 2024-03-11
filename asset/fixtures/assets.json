@@ -1,0 +1,28 @@
+[
+  {
+    "model": "asset.currency",
+    "pk": 1,
+    "fields": {
+      "created_date": "2024-03-10T12:39:59.791Z",
+      "updated_date": "2024-03-10T12:39:59.791Z",
+      "is_deleted": false,
+      "is_active": true,
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "price": 10.0
+    }
+  },
+  {
+        "model": "asset.currency",
+        "pk": 2,
+        "fields": {
+            "created_date": "2024-03-10T12:39:59.791Z",
+            "updated_date": "2024-03-10T12:39:59.791Z",
+            "is_deleted": false,
+            "is_active": true,
+            "name": "AbanTether",
+            "symbol": "ABN",
+            "price": 10.0
+        }
+    }
+]
