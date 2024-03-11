@@ -1,7 +1,5 @@
-<<<<<<< HEAD
 # exchangeAT
-=======
-# Exchanger
+
 this is awesome, everything is going to run automatically.
 
 ## HOW TO RUN
@@ -29,5 +27,3 @@ SO to run project in `development mode` just run:
 ./run.sh develoment
 
 ```
-
->>>>>>> dev
